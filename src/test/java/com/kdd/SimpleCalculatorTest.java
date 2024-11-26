@@ -1,5 +1,6 @@
 package com.kdd;
 
+import com.kkd.SimpleCalculator;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
