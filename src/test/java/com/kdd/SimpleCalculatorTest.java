@@ -42,4 +42,13 @@ public class SimpleCalculatorTest {
 
         assertThat(re).isEqualTo(5);
     }
+
+    @Test
+    @DisplayName("10 * 5 = 50")
+    public void test5() {
+        SimpleCalculator simpleCalculator = new SimpleCalculator();
+        int re = simpleCalculator.multiply(10, 5);
+
+        assertThat(re).isEqualTo(50);
+    }
 }
